@@ -1,5 +1,6 @@
 # Pomodoro Timer
-A web-based timer designed to curb procrastination.
+| A web-based timer designed to curb procrastination. |
+| -------- |
 
 ![Desktop with many windows open and timer in corner](public/pomodoro/pomodoro-preview.png)
 

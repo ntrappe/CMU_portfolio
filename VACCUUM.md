@@ -76,5 +76,64 @@ Focused on the top pain points, we sketched dozens of concepts before converging
 - Charging LEDs on the handle: green (>20%), yellow (10–20%), red (<10%).
 
 ## Design
+In our redesign, every element was driven by Norman’s key principles: **affordances**, **signifiers**, **feedback**, **mapping**, and **discoverability**. Here’s how each principle shaped the “Tesla Vacuum.”
+
+### Affordances
+> **Definition:** The physical form suggests how it's used.
+
+- **Articulating Connector (“Bus Joint”)**
+  - _Why?_ Users repeatedly tripped over rigid wands or couldn’t reach under low furniture.
+  - _Principle:_ The accordion‑style joint naturally bends when you press it under a couch. Its shape invites flexing—no instructions needed.
+- **Ergonomic Pistol‑Grip Handle**
+  - _Why?_ Students struggled to find a comfortable place to hold, leading to wrist strain.
+  - _Principle:_ A molded grip cradles the palm and fingers; its silhouette screams “grab me here.”
+
+![Grey vacuum with articulated connector between base and body. Obvious buttons on handle and dirt chamber. No cords.](/public/vacuum/tesla-vacuum.png)
+**Figure 3:** The "Tesla" Vacuum. Our redesign is portable, with powerful suction, and maneuverability.
+
+### Signifiers
+> **Definition:** Cues that indicate where and how actions should occur.
+
+- **Red Power Button**
+  - High‑contrast red and the universal “power” symbol make startup/shutdown immediately obvious.
+- **Magenta “Empty” Button**
+  - A salient color indicating a major action will occur and a symbol with the bottom of the bin open signal “this is how you release debris.”
+- **Blue “Release” Button**
+  - Distinct hue and a dirt-chamber removed graphic clearly differentiate “remove chamber” from “empty chamber.”
+- **LED Ring Around Suction Dial**
+  - Illuminated segments correspond to each suction level, inviting users to twist the dial.
+
+![](/public/vacuum/buttons.png)
+**Figure 4:** Iterating over the "empty" and "release" buttons. 
+
+### Feedback
+> **Definition:** Immediate, perceivable response to user actions.
+
+- **Haptic Pulse on Power On/Off**
+  - Confirms the button press even in noisy environments.
+- **Tactile Detents & Light on Dial**
+  - Each suction‑level click is felt and seen via LED segment lighting.
+- **Audible “Snap” on Chamber Lock**
+  - A crisp click lets users know the bin is secured before they resume cleaning.
+- **Charging Indicator LEDs**
+  - While plugged in, a small lightning‑bolt icon glows: green (>20% charge), yellow (10–20%), and red (< 10%).
+
+### Mapping
+> **Definition:** Relationship between controls and their effects.
+
+- **Dial-to-Suction Correlation**
+  - Turning the dial clockwise increases suction in predictable, linear increments, reinforced by equally spaced LED segments.
+- **Color-to-State Mapping**
+  - Intuitive traffic‑light color scheme (green→yellow→red) for battery status.
+
+### Discoverability
+> **Definition:** Essential functions must be obvious without a manual.
+
+- **Visible Button Placement**
+  - Power button is near the handle. Empty and release are grouped on the dirt chamber.
+- **Iconography & Contrast**
+  - High‑contrast symbols on each control surface make their purpose legible at a glance.
+- **Translucent Dirt Chamber**
+  - Transparency ets users see dirt level before it overflows.
 
 [^1]: **Project Details:** Took 3 weeks to develop. Worked in a team of 4. Mocked up designs in Keynote.

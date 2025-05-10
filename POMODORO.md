@@ -6,13 +6,13 @@
 
 
 ## Table of Contents
-1. Problem
-2. Background
-3. Research
-4. Approach
-5. Design
-6. Final Result (Demo)
-7. Insights
+1. [Problem](#problem)
+2. [Background](#background)
+3. [Research](#research)
+4. [Approach](#approach)
+5. [Design](#design)
+6. [Final Result (Demo)](#final-result)
+7. [Insights](#insights)
 
 ## Problem
 Engineering students need to complete giant programming assignments without getting overwhelmed or burnt out. Without a way to break up work into smaller tasks and work for shorter periods of time, engineering students will suffer from a lack of productivity and, potentially, fail to complete assignments.

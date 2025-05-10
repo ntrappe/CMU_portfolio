@@ -27,9 +27,9 @@ If we had been hired to create a timer—rather than assigned it in class—we w
 ![Popular pomodoro timer website](/public/pomodoro/pomofocus.png)
 
 A number of problems emerged:
-- Most timers had a pause/stop button during a “pomodoro” which violated the technique (it should be forfeited).
-- All the timers had salient colors, gamification, or notifications—all of which were distracting (another violation).
-- Some timers lacked clear signifiers or feedback which reduced usability.
+- Most timers had a pause/stop button during a “pomodoro” which violated the technique → 🛑 it should be forfeited.
+- All the timers had salient colors, gamification, or notifications → 🛑 too distracting.
+- Some timers lacked clear signifiers or feedback → 🛑 reduced usability.
 
 ### Try the Technique
 While it would be better design practice to source a group of engineering students and conduct a survey or user experience data, we were not afforded the time to do so. Instead, we—engineering students—tried the Pomodoro Technique while completing assignments in our other engineering classes to analyze how the Technique would work for this audience.
@@ -120,5 +120,5 @@ With '2m' representing 2 minutes on the timer, we click **Start** and and comple
 - **Usage Before Construction.** Understand when, how, and when your users will be using your tech before you start designing your architecture. Even knowing that the app would be minimizing the forced into different dimensions informed us early on that we needed a component architecture and lots of flex box.
 - **It's Never Finished.** Looking back on this app years later, I see so many more improvements we could make now that I've had much more experience in web development and fresh eyes. It's a good reminder that your projects are never completely done, there's always opportunities for improvement.
 
-[^1]: **Project Details:** Took 2 months to develop. Worked in a team of 11 as the lead designer and architect. Used JavaScript, Cypress, and Netlify.
+[^1]: **Project Details:** Took 2 months to develop. Worked in a team of 11 as the lead designer and architect. Used JavaScript, Cypress, and Netlify. Try it [here](https://cse110team33.netlify.app/).
 [^2]: **The Pomodoro Technique:** (A) Work for a “pomodoro” (typically 25 minutes). (B) Take a 5 minute break after the "pomodoro". (C) After 3 “pomodoros", take a longer 15 minute break. (D) If a “pomodoro” is interrupted, it is forfeited and must be restarted.

@@ -4,12 +4,7 @@
 
 ![Desktop with many windows open and timer in corner](public/pomodoro/pomodoro-preview.png)
 
-**Timeline:** 2 months  |  **Team Size:** 11 members  |  **Tool & Tech:** JavaScript, Cypress, & Netlify  |  **Live Demo:** [Try It](https://cse110team33.netlify.app/) 
-
-
-| Domain | Timeline | Team Size | My Role | Tool & Tech | Live Demo |
-| -------- | --------- | ---- | ------ | ----------- | ------ |
-| Web Development | 2 months | 11 members | Designer & Architect | JavaScript, Cypress, Netlify | [Try It](https://cse110team33.netlify.app/) |
+**Project Stats:** Took 2 months to develop. Worked in a team of 11. Used JavaScript, Cypress, and Netlify. [Try the demo](https://cse110team33.netlify.app/).
 
 ## Table of Contents
 1. Problem
@@ -44,11 +39,11 @@ While it would be better design practice to source a group of engineering studen
 ### Simplicity is Key
 As engineers, we'd rather drown in a sea of features than restrain ourselves to work on something as "simple" as a timer (the horror). As a result, this project was a humbling reminder that we design for users and not ourselves. We distilled our initial pile of features down to a handful by asking five questions about each:
 
-- Who does this benefit?
-- What is the context?
-- When would the answer work?
-- Where would the answer work?
-- Why is this a problem?
+- 👩🏻 Who does this benefit?
+- 🚘 What is the context?
+- ⏰ When would the answer work?
+- 🏠 Where would the answer work?
+- 🤔 Why is this a problem?
 
 ### Sketch it Out
 Next, we drew some mockups to visualize how a user might interact with our app. This helped us simplify the controls, improve the layout, and make sure the timer truly was the star of the show.
@@ -92,7 +87,7 @@ We wanted our timer to be universally usable, so we put in the extra effort to e
 ## Final Result
 https://vimeo.com/909267598
 
-**Demo of the App.**[^2] See the pomodoro timer in action as we work, take breaks, modify settings, and explore features. For the purposes of the demonstration, we've sped up the timer. If you'd prefer to try it out yourself, find it [here](https://cse110team33.netlify.app/).
+**Demo of the App.** See the pomodoro timer in action as we work, take breaks, modify settings, and explore features. For the purposes of the demonstration, we've sped up the timer. If you'd prefer to try it out yourself, find it [here](https://cse110team33.netlify.app/).
 
 <details style="border: 1px solid #bbb; border-radius:8px; padding:7px 15px;"> 
 <summary> Transcript</summary>
@@ -127,4 +122,3 @@ With '2m' representing 2 minutes on the timer, we click **Start** and and comple
 - **It's Never Finished.** Looking back on this app years later, I see so many more improvements we could make now that I've had much more experience in web development and fresh eyes. It's a good reminder that your projects are never completely done, there's always opportunities for improvement.
 
 [^1]: **The Pomodoro Technique:** (A) Work for a “pomodoro” (typically 25 minutes). (B) Take a 5 minute break after the "pomodoro". (C) After 3 “pomodoros", take a longer 15 minute break. (D) If a “pomodoro” is interrupted, it is forfeited and must be restarted.
-[^2]: **Transcript of Demo**:

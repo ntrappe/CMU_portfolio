@@ -4,6 +4,8 @@
 
 ![Desktop with many windows open and timer in corner](public/pomodoro/pomodoro-preview.png)
 
+**Timeline:** 2 months  |  **Team Size:** 11 members  |  **Tool & Tech:** JavaScript, Cypress, & Netlify  |  **Live Demo:** [Try It](https://cse110team33.netlify.app/) 
+
 
 | Domain | Timeline | Team Size | My Role | Tool & Tech | Live Demo |
 | -------- | --------- | ---- | ------ | ----------- | ------ |
@@ -90,9 +92,9 @@ We wanted our timer to be universally usable, so we put in the extra effort to e
 ## Final Result
 https://vimeo.com/909267598
 
-**Demo of the App.** See the pomodoro timer in action as we work, take breaks, modify settings, and explore features. For the purposes of the demonstration, we've sped up the timer. If you'd prefer to try it out yourself, find it [here](https://cse110team33.netlify.app/).
+**Demo of the App.**[^2] See the pomodoro timer in action as we work, take breaks, modify settings, and explore features. For the purposes of the demonstration, we've sped up the timer. If you'd prefer to try it out yourself, find it [here](https://cse110team33.netlify.app/).
 
-<details> 
+<details style="border: 1px solid #bbb; border-radius:8px; padding:7px 15px;"> 
 <summary> Transcript</summary>
 When we first open the app, we see a dark screen with 6 features. From left to right, we have a button for settings, a label indicating a work session, a timer with 25 minutes, a button to start the timer, a button for information, and a button for statistics.
 
@@ -124,8 +126,5 @@ With '2m' representing 2 minutes on the timer, we click **Start** and and comple
 - **Usage Before Construction.** Understand when, how, and when your users will be using your tech before you start designing your architecture. Even knowing that the app would be minimizing the forced into different dimensions informed us early on that we needed a component architecture and lots of flex box.
 - **It's Never Finished.** Looking back on this app years later, I see so many more improvements we could make now that I've had much more experience in web development and fresh eyes. It's a good reminder that your projects are never completely done, there's always opportunities for improvement.
 
-[^1]: **The Pomodoro Technique:** 
-- Work for a “pomodoro” (typically 25 minutes)
-- Take a 5 minute break after the "pomodoro"
-- After 3 “pomodoros", take a longer 15 minute break
-- If a “pomodoro” is interrupted, it is forfeited and must be restarted
+[^1]: **The Pomodoro Technique:** (A) Work for a “pomodoro” (typically 25 minutes). (B) Take a 5 minute break after the "pomodoro". (C) After 3 “pomodoros", take a longer 15 minute break. (D) If a “pomodoro” is interrupted, it is forfeited and must be restarted.
+[^2]: **Transcript of Demo**:

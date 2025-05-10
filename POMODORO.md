@@ -1,10 +1,11 @@
 # Pomodoro Timer
 | A web-based timer designed to curb procrastination. |
 | -------- |
+| Took 2 months to develop. Worked in a team of 11. Used JavaScript, Cypress, and Netlify. [Try the demo](https://cse110team33.netlify.app/). |
 
 ![Desktop with many windows open and timer in corner](public/pomodoro/pomodoro-preview.png)
 
-**Project Stats:** Took 2 months to develop. Worked in a team of 11. Used JavaScript, Cypress, and Netlify. [Try the demo](https://cse110team33.netlify.app/).
+**Pomodoro Timer:** Multiple open windows and folders with the timer in the corner.
 
 ## Table of Contents
 1. Problem

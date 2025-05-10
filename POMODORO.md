@@ -4,6 +4,13 @@
 
 ![Desktop with many windows open and timer in corner](public/pomodoro/pomodoro-preview.png)
 
+<span style="border:1px solid #ddd; border-radius:8px; background-color:white; padding: 3px 7px; margin-right: 5px;"><b>Timeline:</b> 2 months</span>
+<span style="border:1px solid #ddd; border-radius:8px; background-color:white; padding: 3px 7px; margin-right: 5px;"><b>Team Size:</b> 11 members</span>
+<span style="color:white; border-radius:8px; background-color:#127fff; padding: 3px 7px; margin-right: 5px;"><b>Domain:</b> web dev</span>
+
+| **Timeline:** 2 months | **Team Size:** 11 members | **Role:** Lead Designer & Architect | **Domain:** Web Development |
+| -------- | -------- | -------- | -------- |
+
 | Timeline | Team Size | Role | Domain | Tool & Tech | Live Demo |
 | -------- | --------- | ---- | ------ | ----------- | ------ |
 | 2 months | 11 members | Lead Designer & Architect | Web Application | JavaScript, Cypress, Netlify | [Try It](https://cse110team33.netlify.app/) |
@@ -24,11 +31,11 @@ Engineering students need to complete giant programming assignments without gett
 At UC San Diego, in my Software Engineering course, we were told to create a pomodoro timer. We had full control over the design and implementation but it had to abide by the Pomodoro Technique. 
 
 > [!NOTE] 
-> **The Pomodoro Technique** <br/>
-> Work for a “pomodoro” (a period of 25 minutes) <br/>
-> After a “pomodoro” — take a 5 minute break <br/>
-> After 3 “pomodoros" — take a longer 15 minute break <br/>
-> If a “pomodoro” is interrupted, it is forfeited and must be restarted
+> **The Pomodoro Technique:** <br/>
+> → Work for a “pomodoro” (typically 25 minutes) <br/>
+> → Take a 5 minute break after the "pomodoro" <br/>
+> → After 3 “pomodoros", take a longer 15 minute break <br/>
+> → If a “pomodoro” is interrupted, it is forfeited and must be restarted
 
 ## Research
 ### Analyze the Competition

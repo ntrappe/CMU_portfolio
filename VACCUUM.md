@@ -1,6 +1,6 @@
 # Tesla Vacuum[^1]
 | A lightweight, powerful, and portable vacuum. |
-| -------- |
+| --- |
 
 ![Orange vacuum with bad signifiers and affordances vs the redesign with better icons and usability](public/vacuum/vacuum-preview.png)
 
@@ -13,14 +13,13 @@
 5. [Design](#design)
 6. [Insights](#insights)
 
+## Problem
+How might we design a cordless vacuum for students that feels lightweight, is easy to empty, and stays quiet enough to use in shared spaces?
 
 ## Background
 In DSGN 1—grounded in _The Design of Everyday Things_—we set out to redesign a common student tool or appliance. Through an initial mind‑mapping exercise, we identified everyday objects that every college student encountered, from water bottles and iClickers to car fobs. Vacuums emerged as a clear candidate: nearly every dorm room needed one, yet conventional models were heavy, noisy, and awkward to operate. Our goal was to apply core principles of affordances, signifiers, feedback, and discoverability to redesign a student vacuum.
 
 ![Mind map of possible student appliances and tools to redesign](/public/vacuum/mind_map.png)
-
-## Problem
-How might we design a cordless vacuum for students that feels lightweight, is easy to empty, and stays quiet enough to use in shared spaces?
 
 ## Research
 ### Quantitative Evaluation

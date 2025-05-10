@@ -22,14 +22,7 @@
 Engineering students need to complete giant programming assignments without getting overwhelmed or burnt out. Without a way to break up work into smaller tasks and work for shorter periods of time, engineering students will suffer from a lack of productivity and, potentially, fail to complete assignments.
 
 ## Background
-At UC San Diego, in my Software Engineering course, we were told to create a pomodoro timer. We had full control over the design and implementation but it had to abide by the Pomodoro Technique. 
-
-> [!NOTE] 
-> **The Pomodoro Technique:** <br/>
-> → Work for a “pomodoro” (typically 25 minutes) <br/>
-> → Take a 5 minute break after the "pomodoro" <br/>
-> → After 3 “pomodoros", take a longer 15 minute break <br/>
-> → If a “pomodoro” is interrupted, it is forfeited and must be restarted
+At UC San Diego, in my Software Engineering course, we were told to create a pomodoro timer. We had full control over the design and implementation but it had to abide by the Pomodoro Technique[^1]. 
 
 ## Research
 ### Analyze the Competition
@@ -130,3 +123,9 @@ With '2m' representing 2 minutes on the timer, we click **Start** and and comple
 - **Simplicity is Hard!** You can't hide behind your features so you have to completely understand your user, prioritize the features they need, and perfect it.
 - **Usage Before Construction.** Understand when, how, and when your users will be using your tech before you start designing your architecture. Even knowing that the app would be minimizing the forced into different dimensions informed us early on that we needed a component architecture and lots of flex box.
 - **It's Never Finished.** Looking back on this app years later, I see so many more improvements we could make now that I've had much more experience in web development and fresh eyes. It's a good reminder that your projects are never completely done, there's always opportunities for improvement.
+
+[^1]: **The Pomodoro Technique:** 
+- Work for a “pomodoro” (typically 25 minutes)
+- Take a 5 minute break after the "pomodoro"
+- After 3 “pomodoros", take a longer 15 minute break
+- If a “pomodoro” is interrupted, it is forfeited and must be restarted

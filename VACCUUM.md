@@ -11,9 +11,7 @@
 3. [Research](#research)
 4. [Approach](#approach)
 5. [Design](#design)
-6. [Final Result](#final-result)
-7. [Insights](#insights)
-
+6. [Insights](#insights)
 
 
 ## Background
@@ -103,7 +101,7 @@ In our redesign, every element was driven by Norman’s key principles: **afford
 - **LED Ring Around Suction Dial**
   - Illuminated segments correspond to each suction level, inviting users to twist the dial.
 
-![](/public/vacuum/buttons.png)
+![Development of icons from trash symbol to more literal release of bottom of dirt chamber](/public/vacuum/buttons.png)
 **Figure 4:** Iterating over the "empty" and "release" buttons. 
 
 ### Feedback
@@ -134,6 +132,14 @@ In our redesign, every element was driven by Norman’s key principles: **afford
 - **Iconography & Contrast**
   - High‑contrast symbols on each control surface make their purpose legible at a glance.
 - **Translucent Dirt Chamber**
-  - Transparency ets users see dirt level before it overflows.
+  - Transparency lets users see dirt level before it overflows.
+
+![Can see debris accumulating in the vacuum's dirt chamber](/public/vacuum/emptying.png)
+**Figure 5:** Due to the chamber's transparency, it is clear that debris has built up.
+
+## Insights
+- **Axis Trade-Offs.** Given that we could only model 2 charts, each with 2 axis, we were forced to hone in on the most impactful pain points. This was a challenge (as designers we want to make _everything_ better!) but it was incredibly helpful to focus our energy.
+- **Obvious buttons.** Designing buttons was _hard_. It was easy enough to use common conventions around color (e.g., red for salient) and universal symbols (e.g., power button). But, it was incredibly hard trying to develop icons that screamed "empty the chamber!" or "release the chamber".
+- **Sensory Feedback.** Adding haptic pulses, detent clicks, and audible “snaps” transformed the vacuum from a guessing game into an intuitive tool. When users feel and hear each action’s success, they spend less time wondering “did that work?”.
 
 [^1]: **Project Details:** Took 3 weeks to develop. Worked in a team of 4. Mocked up designs in Keynote.

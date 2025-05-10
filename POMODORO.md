@@ -1,11 +1,9 @@
-# Pomodoro Timer
+# Pomodoro Timer[^1]
 | A web-based timer designed to curb procrastination. |
 | -------- |
-| Took 2 months to develop. Worked in a team of 11. Used JavaScript, Cypress, and Netlify. [Try the demo](https://cse110team33.netlify.app/). |
 
 ![Desktop with many windows open and timer in corner](public/pomodoro/pomodoro-preview.png)
 
-**Pomodoro Timer:** Multiple open windows and folders with the timer in the corner.
 
 ## Table of Contents
 1. Problem
@@ -13,14 +11,14 @@
 3. Research
 4. Approach
 5. Design
-6. Final Result
+6. Final Result (Demo)
 7. Insights
 
 ## Problem
 Engineering students need to complete giant programming assignments without getting overwhelmed or burnt out. Without a way to break up work into smaller tasks and work for shorter periods of time, engineering students will suffer from a lack of productivity and, potentially, fail to complete assignments.
 
 ## Background
-At UC San Diego, in my Software Engineering course, we were told to create a pomodoro timer. We had full control over the design and implementation but it had to abide by the Pomodoro Technique[^1]. 
+At UC San Diego, in my Software Engineering course, we were told to create a pomodoro timer. We had full control over the design and implementation but it had to abide by the Pomodoro Technique[^2]. 
 
 ## Research
 ### Analyze the Competition
@@ -122,4 +120,5 @@ With '2m' representing 2 minutes on the timer, we click **Start** and and comple
 - **Usage Before Construction.** Understand when, how, and when your users will be using your tech before you start designing your architecture. Even knowing that the app would be minimizing the forced into different dimensions informed us early on that we needed a component architecture and lots of flex box.
 - **It's Never Finished.** Looking back on this app years later, I see so many more improvements we could make now that I've had much more experience in web development and fresh eyes. It's a good reminder that your projects are never completely done, there's always opportunities for improvement.
 
-[^1]: **The Pomodoro Technique:** (A) Work for a “pomodoro” (typically 25 minutes). (B) Take a 5 minute break after the "pomodoro". (C) After 3 “pomodoros", take a longer 15 minute break. (D) If a “pomodoro” is interrupted, it is forfeited and must be restarted.
+[^1]: **Project Details:** Took 2 months to develop. Worked in a team of 11 as the lead designer and architect. Used JavaScript, Cypress, and Netlify.
+[^2]: **The Pomodoro Technique:** (A) Work for a “pomodoro” (typically 25 minutes). (B) Take a 5 minute break after the "pomodoro". (C) After 3 “pomodoros", take a longer 15 minute break. (D) If a “pomodoro” is interrupted, it is forfeited and must be restarted.

@@ -4,16 +4,10 @@
 
 ![Desktop with many windows open and timer in corner](public/pomodoro/pomodoro-preview.png)
 
-<span style="border:1px solid #ddd; border-radius:8px; background-color:white; padding: 3px 7px; margin-right: 5px;"><b>Timeline:</b> 2 months</span>
-<span style="border:1px solid #ddd; border-radius:8px; background-color:white; padding: 3px 7px; margin-right: 5px;"><b>Team Size:</b> 11 members</span>
-<span style="color:white; border-radius:8px; background-color:#127fff; padding: 3px 7px; margin-right: 5px;"><b>Domain:</b> web dev</span>
 
-| **Timeline:** 2 months | **Team Size:** 11 members | **Role:** Lead Designer & Architect | **Domain:** Web Development |
-| -------- | -------- | -------- | -------- |
-
-| Timeline | Team Size | Role | Domain | Tool & Tech | Live Demo |
+| Domain | Timeline | Team Size | My Role | Tool & Tech | Live Demo |
 | -------- | --------- | ---- | ------ | ----------- | ------ |
-| 2 months | 11 members | Lead Designer & Architect | Web Application | JavaScript, Cypress, Netlify | [Try It](https://cse110team33.netlify.app/) |
+| Web Development | 2 months | 11 members | Designer & Architect | JavaScript, Cypress, Netlify | [Try It](https://cse110team33.netlify.app/) |
 
 ## Table of Contents
 1. Problem

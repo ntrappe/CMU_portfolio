@@ -34,9 +34,9 @@ This initially was a major challenge for the vast amount of text we would _HAVE_
 We got **zero** input on audience or goals. All we received was that wall of text and a folder of photos. So I reverse-engineered a likely viewer:
 
 - **Schedule clues:**
- - Thu 5:30 – 7:30 PM
- - Fri 9 AM – 12:15 PM, 2 – 4:45 PM, 5:30 – 6:30 PM
- - Sat 9 AM – 12:30 PM
+  - Thu 5:30 – 7:30 PM
+  - Fri 9 AM – 12:15 PM, 2 – 4:45 PM, 5:30 – 6:30 PM
+  - Sat 9 AM – 12:30 PM
 
 Those weekday, business-hour slots rule out 9-to-5 folks. I’m betting on retirees who have free daytime hours.
 
@@ -78,19 +78,22 @@ We were required to generate as many layout ideas as possible. I roughly sketche
 
 I'll be honest: _I didn't want to sketch or do lo-fi mockups_. When content volume is predetermined, I'd rather let _it_ steer my design rather than forcing it to fit into mine. Instead of starting with abstract boxes, I placed the full text, images, and map at scale in Keynote. Through seven monochrome passes I adjusted positioning, spacing, and visual weight until the reading flow felt intuitive. 
 
+Only then did I derive the formal grid: three narrow schedule columns and a dedicated map section.
+
 <p id="black-white-mockup-section" style="display:flex;">
-  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:32%;">
-  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="width:32%;">
-  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:32%;">
+  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:23.5%;">
+  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="width:23.5%;">
+  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:23.5%;">
+  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:23.5%;">
 </p>
 
-**Figures 4-6:** Two columns (center) + map (center, bottom) → two columns + map (in columns) → three columns + map (own section).
+**Figures 4-7:** Two columns (center) + map (center, bottom) → two columns + map (in columns) → three columns + map (own section) → grid.
 
-Only then did I derive the formal grid: three narrow schedule columns, a dedicated map section, and consistent margins anchoring the composition.
-
-![Grid of the poster with title, body, and header with standard margins, a large rectangle for the call-out, and 2 small rectangles for the images breaking it](/public/museum/poster-grid.png)
-
-**The Grid:** Consistent margins for title, footer, and body; a full-bleed map section block to break the rhythm; and two photo blocks that pop outside the grid to catch the eye.
+Only then did I derive the formal grid: 
+- Three narrow schedule columns
+- Consistent margins anchoring the title, footer, and body
+- A full-bleed map/info section to break it up
+- Two photo blocks that pop outside the grid to catch the eye
 
 ### Typography Experiments
 I flirted with avant-garde title treatments (photo-filled letters, buildings forming glyphs) before reality—“retirees need clarity”—won. The final title is big, bold, and dead simple.

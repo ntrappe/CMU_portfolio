@@ -79,11 +79,12 @@ I initially started with some VERY rough ideas of layouts. I just wanted to get 
 
 My preferred technique is to throw all the text, images, and map on the screen and move things around until there's a flow or spacing that feels right. I did about 7 black-and-white versions (so color wouldn't distract) until I found one that made more sense.
 
-<p id="black-white-mockup-section>
-  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom">
-  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns">
-  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half">
+<p id="black-white-mockup-section" style="display:flex;">
+  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:33%;">
+  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="width:33%;">
+  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:33%;">
 </p>
+
 **Figures 4-6:** Iterations of two vs three columns for the itinerary and position of the map.
 
 The third mock-up felt the best. It broke up content into more meaningful and digestible chunks with the three columns and distinct section. I then began devising a grid for the poster. After planning around more, this is what I came up with.

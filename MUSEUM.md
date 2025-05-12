@@ -69,7 +69,7 @@ I dropped a hero image into Keynote, dropped opacity, then traced major lines. T
   <img src="/public/museum/HouseRender.png" alt="MRender of the photograph with just lines" style="width:32%;">
 </p>
 
-**Figures 1-3:** Original photo → line overlay → final line-only render.
+**Figures 1-3:** _Original photo → line overlay → final line-only render._
 
 ### Layout Iterations
 We were required to generate as many layout ideas as possible. I roughly sketched out different grids.
@@ -84,10 +84,17 @@ Only then did I derive the formal grid: three narrow schedule columns and a dedi
   <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:23.5%;">
   <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="width:23.5%;">
   <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:23.5%;">
-  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:23.5%;">
+  <img src="/public/museum/poster-grid.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:23.5%;">
 </p>
 
-**Figures 4-7:** Two columns (center) + map (center, bottom) → two columns + map (in columns) → three columns + map (own section) → grid.
+<div style="display:flex;">
+  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="max-width:50%;">
+  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="max-width:50%;">
+  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="max-width:50%;">
+  <img src="/public/museum/poster-grid.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="max-width:50%;">
+</div>
+
+**Figures 4-7:** _Two columns (center) + map (center, bottom) → two columns + map (in columns) → three columns + map (own section) → grid._
 
 Only then did I derive the formal grid: 
 - Three narrow schedule columns
@@ -108,7 +115,7 @@ Tested a family of warm reds, russet browns, and muted oranges against a cool as
   <img src="/public/museum/BWColorMockup2ockup2.png" alt="Ash poster with map section in a orange" style="width:49%;">
 </p>
 
-**Figure 7-8:** The tonal range I explored.
+**Figure 7-8:** _The tonal range I explored._
 
 ## Final Result
 - **Audience-first:** Every choice stems from the retiree assumption—legible type, accessible palette, friendly tone.

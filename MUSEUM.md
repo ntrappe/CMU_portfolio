@@ -9,7 +9,7 @@
 2. [Background](#background)
 3. [Research](#research)
 4. [Approach](#approach)
-5. [Design](#design)
+5. [Design (+ grid)](#design)
 6. [Final Result](#final-result)
 7. [Insights](#insights)
 
@@ -79,11 +79,18 @@ I initially started with some VERY rough ideas of layouts. I just wanted to get 
 
 My preferred technique is to throw all the text, images, and map on the screen and move things around until there's a flow or spacing that feels right. I did about 7 black-and-white versions (so color wouldn't distract) until I found one that made more sense.
 
-![Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom](/public/museum/BWMockup1.png)
+<p>
+  <img src="https://github.com/ntrappe/CMU_portfolio/blob/main/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom">
+  <img src="https://github.com/ntrappe/CMU_portfolio/blob/main/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns">
+  <img src="https://github.com/ntrappe/CMU_portfolio/blob/main/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half">
+</p>
+**Figures 4-6:** Iterations of two vs three columns for the itinerary and position of the map.
 
-![Mockup 2 has the itinerary as two columns with the map as part of the columns](/public/museum/BWMockup2.png)
+The third mock-up felt the best. It broke up content into more meaningful and digestible chunks with the three columns and distinct section. I then began devising a grid for the poster. After planning around more, this is what I came up with.
 
-![Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half](/public/museum/BWMockup3.png)
+![Grid of the poster with title, body, and header with standard margins, a large rectangle for the call-out, and 2 small rectangles for the images breaking it](/public/museum/poster-grid.png)
+
+**The Grid:** Standard sections (title, body, and header) use the same margins. The call-out (map + info) uses a different background color and no margin to feel distinct. The images of avant-garde buildings (two dark rectangles) will also break the grid to be more eye-catching.
 
 ### Title
 I even tried some more "avant-garde" stylings of the title before settling on a simple, bold design that would be more legible to our audience. The first had part of an image in the letters and the second used buildings to form the letters.

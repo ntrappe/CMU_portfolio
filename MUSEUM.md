@@ -31,82 +31,86 @@ This initially was a major challenge for the vast amount of text we would _HAVE_
 ![3 sheets of paper with text to showcase how much content needs to be included](/public/museum/content-req.png)
 
 ## Research
-Unlike most projects I've worked on, we never get to communicate with the shareholders nor do we know much about our target audience. We were told nothing about who this poster should target. So, I made my own assumptions.
+We got **zero** input on audience or goals. All we received was that wall of text and a folder of photos. So I reverse-engineered a likely viewer:
 
-According to the text given, the event was to be held on the following dates and times:
+- **Schedule clues:**
+ - Thu 5:30 – 7:30 PM
+ - Fri 9 AM – 12:15 PM, 2 – 4:45 PM, 5:30 – 6:30 PM
+ - Sat 9 AM – 12:30 PM
 
-- Thursday, 5:30pm-7:30pm
-- Friday, 9:00am-12:15pm, 2:00pm-4:45pm, 5:30pm-6:30pm
-- Saturday, 9:00am-12:30pm
-
-The event was primarily held on the week, not weekend, during working hours. That would mean that those working a standard 9 to 5 would miss out on nearly the whole exhibit. For that reason, I made **assumption #1**: this is for retirees.
+Those weekday, business-hour slots rule out 9-to-5 folks. I’m betting on retirees who have free daytime hours.
 
 ## Approach
 Given that this was going to be a poster for retirees to get them interested in learning about architecture I had 5 things to keep in mind:
 
-### 👀 Bad Eyesight
-On the young to old scale, I was going to take a safe assumption that our retirees were leaning towards the latter. That meant I'd be going up against visual impairements and would have to ensure that I had large text, high contrast, and a legible font. Not the simplest task with 3 pages worth of content to fit.
+### 👀 Legibility for aging eyes
+Large type, high contrast, and a workhorse sans-serif. Easy to read from across a lobby. _Not the simplest task with 3 pages worth of content to fit._
 
 ### 🖼️ Integrate Images
-I had to incorporate at least 1 image from a folder of architectural marvels. The problem with avant-garde buildings is that they can distract from all the other information. I had to find a way to mesh my poster design with the images.
+Avant-garde buildings are gorgeous—but noisy. I needed them to support the message and mesh with my poster, not distract from it.
 
-### ☀️ Warmth
-Modern architecture is usually critiqued for being cold and unwelcoming. I wanted the poster to counter this assumption by leaning warm and rich. Also, I wanted to poster to warrant attention but not enough to give our retirees a heart attack.
+### ☀️ Warmth over “Modern Cold”
+A rich, warm palette counters the usual steel-and-glass chill of architecture posters.
 
-### 📏 Block It Out
-Whenever I have a lot of text, it can feel overwhelming. The best way to comabt this problem is to sub-divide the entire poster into smaller blocks. By grouping content or creating visual divides, the eye can move around and it's easier to take in information.
+### 📏 Chunking the Content
+Three pages of copy feels like fifty. I broke the poster into bite-size blocks so the eye can hop instead of slog.
 
-### ✨ Add Some Spice
-- **Location.** This event was located in New York City on a college campus. Even with Google Maps, that would be a challenge to find. So, I needed to add a map or some sort of guide.
-- **Diversity.** Did our speakers cover a range of nationalities, races, and genders? If so, I wanted to know.
+### ✨ Useful Extras
+- **Way-Finding:** Campuses are hard enough to navigate, let alone in NYC. We need a map.
+- **Representation Check:** Highlight speakers’ range of backgrounds where possible.
 
 ## Design
 ### The Photos
-The easiest challenge for me to tackle was how to integrate at least 1 photo of a building from the collection we were given. We were allowed to modify or add to the image but we had to include one as an example. I dropped one of the images in Keynote, lowered the opacity to better see the edges and started laying down lines.
+I dropped a hero image into Keynote, dropped opacity, then traced major lines. The resulting drawing lets me weave the architecture into the layout without taking attention from the text or design schema.
 
-![Original photograph of an avant-garde building](/public/museum/HouseOriginal.png)
+<p id="render-photo-section" style="display:flex;">
+  <img src="/public/museum/HouseOriginal.png" alt="Original photograph of an avant-garde building" style="width:32%;">
+  <img src="/public/museum/HouseLines.png" alt="Lower opacity version of photo with outlines laid down" style="width:32%;">
+  <img src="/public/museum/HouseRender.png" alt="MRender of the photograph with just lines" style="width:32%;">
+</p>
 
-![Lower opacity version of photo with outlines laid down](/public/museum/HouseLines.png)
+**Figures 1-3:** Original photo → line overlay → final line-only render.
 
-![Render of the photograph with just lines](/public/museum/HouseRender.png)
-
-**Figures 1-3:** The original photo. The photo with lines outlining it. The render with all the lines making up the architecture of the photo.
-
-### The Layout
-I initially started with some VERY rough ideas of layouts. I just wanted to get all my ideas on the table and then I could refine. I didn't enjoy this part of the process because I wanted the text to dictate the spacing I could have rather than forcing the text to fit into the spaces I'd created.
+### Layout Iterations
+We were required to generate as many layout ideas as possible. I roughly sketched out different grids.
 
 ![Sheets of paper with different layouts for the poster](/public/museum/RoughMockups.png)
 
-My preferred technique is to throw all the text, images, and map on the screen and move things around until there's a flow or spacing that feels right. I did about 7 black-and-white versions (so color wouldn't distract) until I found one that made more sense.
+I'll be honest: _I didn't want to sketch or do lo-fi mockups_. When content volume is predetermined, I'd rather let _it_ steer my design rather than forcing it to fit into mine. Instead of starting with abstract boxes, I placed the full text, images, and map at scale in Keynote. Through seven monochrome passes I adjusted positioning, spacing, and visual weight until the reading flow felt intuitive. 
 
 <p id="black-white-mockup-section" style="display:flex;">
-  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:33%;">
-  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="width:33%;">
-  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:33%;">
+  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:32%;">
+  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="width:32%;">
+  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:32%;">
 </p>
 
-**Figures 4-6:** Iterations of two vs three columns for the itinerary and position of the map.
+**Figures 4-6:** Two columns (center) + map (center, bottom) → two columns + map (in columns) → three columns + map (own section).
 
-The third mock-up felt the best. It broke up content into more meaningful and digestible chunks with the three columns and distinct section. I then began devising a grid for the poster. After planning around more, this is what I came up with.
+Only then did I derive the formal grid: three narrow schedule columns, a dedicated map section, and consistent margins anchoring the composition.
 
 ![Grid of the poster with title, body, and header with standard margins, a large rectangle for the call-out, and 2 small rectangles for the images breaking it](/public/museum/poster-grid.png)
 
-**The Grid:** Standard sections (title, body, and header) use the same margins. The call-out (map + info) uses a different background color and no margin to feel distinct. The images of avant-garde buildings (two dark rectangles) will also break the grid to be more eye-catching.
+**The Grid:** Consistent margins for title, footer, and body; a full-bleed map section block to break the rhythm; and two photo blocks that pop outside the grid to catch the eye.
 
-### Title
-I even tried some more "avant-garde" stylings of the title before settling on a simple, bold design that would be more legible to our audience. The first had part of an image in the letters and the second used buildings to form the letters.
+### Typography Experiments
+I flirted with avant-garde title treatments (photo-filled letters, buildings forming glyphs) before reality—“retirees need clarity”—won. The final title is big, bold, and dead simple.
 
 ![Versions of the title with images as the background of the text and buildings forming the letters](/public/museum/TitleMockup.png)
 
-### Colors
-I then played around with a number of shades in warm reddish browns, greys, and oranges.
+### Color Play
+Tested a family of warm reds, russet browns, and muted oranges against a cool ash background. Landed on a deep terra-cotta for call-outs and a softer clay for accents—inviting, but calm enough for coffee-shop bulletin boards.
 
-![Ash poster with map section in a dark grey](/public/museum/ColorMockup1.png)
+<p id="color-test-section" style="display:flex;">
+  <img src="/public/museum/ColorMockup1.png" alt="Ash poster with map section in a dark grey" style="width:49%;">
+  <img src="/public/museum/BWColorMockup2ockup2.png" alt="Ash poster with map section in a orange" style="width:49%;">
+</p>
 
-![Ash poster with map section in a orange](/public/museum/ColorMockup2.png)
+**Figure 7-8:** The tonal range I explored.
 
 ## Final Result
-I tried to warm up the poster more, remove some unnecessary color blocks behind the hours, and isolate the details from the map.
+- **Audience-first:** Every choice stems from the retiree assumption—legible type, accessible palette, friendly tone.
+- **Hierarchy on lock:** Grid + chunking guides the eye: what, when, and where.
+- **Balanced personality:** Architectural, warm, and restrained.
 
 ![Poster in shades of orange and peach with images of avant-garde building, a map with the location of the event, and the itinerary](/public/museum/poster-official.png)
 

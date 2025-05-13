@@ -43,19 +43,19 @@ Those weekday, business-hour slots rule out 9-to-5 folks. I’m betting on retir
 ## Approach
 Given that this was going to be a poster for retirees to get them interested in learning about architecture I had 5 things to keep in mind:
 
-### 👀 Legibility for aging eyes
+### Legibility for aging eyes
 Large type, high contrast, and a workhorse sans-serif. Easy to read from across a lobby. _Not the simplest task with 3 pages worth of content to fit._
 
-### 🖼️ Integrate Images
+### Integrate Images
 Avant-garde buildings are gorgeous—but noisy. I needed them to support the message and mesh with my poster, not distract from it.
 
-### ☀️ Warmth over “Modern Cold”
+### Warmth over “Modern Cold”
 A rich, warm palette counters the usual steel-and-glass chill of architecture posters.
 
-### 📏 Chunking the Content
+### Chunking the Content
 Three pages of copy feels like fifty. I broke the poster into bite-size blocks so the eye can hop instead of slog.
 
-### ✨ Useful Extras
+### Useful Extras
 - **Way-Finding:** Campuses are hard enough to navigate, let alone in NYC. We need a map.
 - **Representation Check:** Highlight speakers’ range of backgrounds where possible.
 
@@ -76,9 +76,17 @@ We were required to generate as many layout ideas as possible. I roughly sketche
 
 ![Sheets of paper with different layouts for the poster](/public/museum/RoughMockups.png)
 
-I'll be honest: _I didn't want to sketch or do lo-fi mockups_. When content volume is predetermined, I'd rather let _it_ steer my design rather than forcing it to fit into mine. Instead of starting with abstract boxes, I placed the full text, images, and map at scale in Keynote. Through seven monochrome passes I adjusted positioning, spacing, and visual weight until the reading flow felt intuitive. 
+I'll be honest: _I didn't want to sketch or do lo-fi mockups_. When content volume is predetermined, I'd rather let _it_ steer my design rather than forcing it to fit into mine. Instead of starting with abstract boxes, I placed the full text, images, and map at scale in Keynote. 
 
-Only then did I derive the formal grid: three narrow schedule columns and a dedicated map section.
+Through seven monochrome passes I adjusted positioning, spacing, and visual weight until the reading flow felt intuitive. Only then did I derive the formal grid: three narrow schedule columns and a dedicated map section.
+
+<p id="bw-mockup" style="display:flex;">
+  <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:32%;">
+  <img src="/public/museum/BWMockup2.png" alt="Mockup 2 has the itinerary as two columns with the map as part of the columns" style="width:32%;">
+  <img src="/public/museum/BWMockup3.png" alt="Mockup 3 has the itinerary as three columns with the map as its own section on the bottom half" style="width:32%;">
+</p>
+
+blah blah
 
 <p id="black-white-mockup-section" style="display:flex;">
   <img src="/public/museum/BWMockup1.png" alt="Mockup 1 has the itinerary as two columns in the center and the map centered at the bottom" style="width:23.5%;">

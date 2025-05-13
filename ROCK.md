@@ -79,7 +79,7 @@ Fourth, the most challenging part—and arguably most important part—of this a
 Fifth, as a Software Engineer, I always ask the context around the use of an application. This app could be used at home while debating on going to a National Park, on the drive to a Park checking conditions, or even in the Park while on a hike. Given that National Parks rarely have good cellular connection, our app would have to provide all the information someone might need without network. This meant we would want to have offline maps, trail details, and more.
 
 ## Design
-# ⭐️ Designing the Fun
+### Designing the Fun
 Our initial challenge in design was to find a balance between minimalism and fun. The bulk of our mockups were actually high-fidelity because we wanted to nail the look and feel of our previews. We needed to find a balance of how much color to use to make it fun but not distract from the parks. To determine our design, we conducted three rounds of A/B testing and iterated through a number of designs.
 
 ![First round of A/B testing had hike previews with pastel colors and some with borders, others with shadows, etc.](/public/rock/PreviewTestA.png)

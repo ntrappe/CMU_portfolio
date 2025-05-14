@@ -59,6 +59,8 @@ Before mocking up anything, I distilled the brief into five concrete design goal
 | Break content into chunks | Three slender schedule columns plus full-bleed map block create natural pauses. |
 | Way-finding | Navigating campuses is challenging, lets give them a campus map. |
 
+_Extra: For fun, also noted nationality and diversity of speakers._
+
 ## Design
 ### Hero Image
 To weave the required photo into the layout without letting it shout over the text, I turned it into architectural line work:
@@ -100,41 +102,47 @@ I actually started with about **ten super-rough grid doodles** in my sketchbook 
 - **Built-in scan paths:** The tight columns encourage a top-to-bottom “newspaper” read. Full-bleed map section interrupts this flow with two boxes. This results in a natural zig-zag.
 
 <p id="grid-mockup" style="display:flex;">
-  <img src="/public/museum/RoughMockups.png" alt="Sheets of paper with different layouts for the poster" style="width:49%;">
-  <img src="/public/museum/poster-grid.png" alt="Final grid with 3 columns and map in its own section" style="width:49%;">
+  <img src="/public/museum/RoughMockups.png" alt="Sheets of paper with different layouts for the poster" style="width:59%;">
+  <img src="/public/museum/poster-grid.png" alt="Final grid with 3 columns and map in its own section" style="width:40%;">
 </p>
 
 **Figures 7 & 8:** _Rough grid doodles → refined, final grid._
 
 ### Typography Experiments
-
-Avant-garde letter-forms looked cool but tanked legibility. Big, bold, and boring won the usability test. 
-I flirted with avant-garde title treatments (photo-filled letters, buildings forming glyphs) before reality—“retirees need clarity”—won. The final title is big, bold, and dead simple.
+- **Hierarchy:**
+  - Biggest font had to be the title as it's the first thing people will read.
+  - Second biggest is the dates of the event as its the next thing people will want to know.
+  - Headings for each of the session days are the next largest as they're needed for structure and easy scanning.
+  - Smallest fonts are reserved for the additional info and footer as they're not essential pieces of info.
+- **Font:** Avant-garde letter-forms looked cool but tanked legibility. Big, bold, and boring won the usability test.
+- **Weight:** Regular vs Semibold only—keeps hierarchy simple for older eyes.
 
 ![Versions of the title with images as the background of the text and buildings forming the letters](/public/museum/TitleMockup.png)
 
-**Figure 9:** _Typography experiments._
+**Figure 9:** _Avant-garde letter tests._
 
 ### Color Play
-Tested a family of warm reds, russet browns, and muted oranges against a cool ash background. Landed on a deep terra-cotta for call-outs and a softer clay for accents—inviting, but calm enough for coffee-shop bulletin boards.
+I iterated through a variety of warm reds, russet browns, and muted oranges against a cool ash background. Final palette:
+
+- **Peach** (#F1E2D5) for background
+- **Ginger** (#B96854) for call-outs
+- **Spice** (#7D4639) for accents (and sub-headings)
+- **Chocolate** (#44261F) for headings
+- **Graphite** (#464646) for text
 
 <p id="color-test-section" style="display:flex;">
   <img src="/public/museum/ColorMockup1.png" alt="Ash poster with map section in a dark grey" style="width:49%;">
-  <img src="/public/museum/BWColorMockup2ockup2.png" alt="Ash poster with map section in a orange" style="width:49%;">
+  <img src="/public/museum/BWColorMockup2.png" alt="Ash poster with map section in a orange" style="width:49%;">
 </p>
 
 **Figure 7-8:** _The tonal range I explored._
 
 ## Final Result
-- **Audience-first:** Every choice stems from the retiree assumption—legible type, accessible palette, friendly tone.
-- **Hierarchy on lock:** Grid + chunking guides the eye: what, when, and where.
-- **Balanced personality:** Architectural, warm, and restrained.
 
 ![Poster in shades of orange and peach with images of avant-garde building, a map with the location of the event, and the itinerary](/public/museum/poster-official.png)
 
 ## Insights
-I learned a number of things from this project both in terms of how to structure a poster but also
-
+What I learned:
 - **Audience.** It's really hard to know how to choose colors, styles, layouts, and sizes without really knowing who your audience is. I made quite a few assumptions when doing this so I may have targeted completely different people than the intended audience.
 - **More is More?** It's also so challenging trying to find a balance of providing details or information but also keeping the product streamlined and comprehensive. I still go back and forth whether the map is adding value or making the layout weird, if the photos didn't have to be renders, or if I shouldn't have included stats like nationality.
 - **Grid-ing.** Using a grid as the basis of all design is super helpful. It allows you to be more creative, bucket information together, divide sections, and direct attention.

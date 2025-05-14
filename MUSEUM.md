@@ -26,7 +26,8 @@ Our first assignment in **DSGN 100: Prototyping** was a crash-course in grid sys
 
 Four pages of text? Challenge accepted.
 
-![3 sheets of paper with text to showcase how much content needs to be included](/public/museum/content-req.png)
+![3 sheets of paper with text to showcase how much content needs to be included](/public/museum/content-req-light.png#gh-light-mode-only)
+![3 sheets of paper with text to showcase how much content needs to be included](/public/museum/content-req-dark.png#gh-dark-mode-only)
 
 ## Research
 ### Reverse-Engineering the Audience
@@ -106,9 +107,13 @@ I actually started with about **ten super-rough grid doodles** in my sketchbook 
 **Figures 7 & 8:** _Rough grid doodles → refined, final grid._
 
 ### Typography Experiments
+
+Avant-garde letter-forms looked cool but tanked legibility. Big, bold, and boring won the usability test. 
 I flirted with avant-garde title treatments (photo-filled letters, buildings forming glyphs) before reality—“retirees need clarity”—won. The final title is big, bold, and dead simple.
 
 ![Versions of the title with images as the background of the text and buildings forming the letters](/public/museum/TitleMockup.png)
+
+**Figure 9:** _Typography experiments._
 
 ### Color Play
 Tested a family of warm reds, russet browns, and muted oranges against a cool ash background. Landed on a deep terra-cotta for call-outs and a softer clay for accents—inviting, but calm enough for coffee-shop bulletin boards.

@@ -61,6 +61,10 @@ Before locking UI, we sketched four “day-in-the-life” frames to test how, wh
 
 > **Insight.** Visibility is situational ⇒ build redundant channels (visual, auditory, haptic).
 
+![Example of user using timer as a tab](/public/pomodoro/storyboard.jpeg)
+
+**Figure 3:** _Example of part of the storyboard for (B) the timer as just a tab._
+
 ## Design
 ### Design Goals
 | Goal | How We Addressed It |

@@ -18,21 +18,34 @@
 Engineering students need to complete giant programming assignments without getting overwhelmed or burnt out. Without a way to break up work into smaller tasks and work for shorter periods of time, engineering students will suffer from a lack of productivity and, potentially, fail to complete assignments.
 
 ## Background
-At UC San Diego, in my Software Engineering course, we were told to create a pomodoro timer. We had full control over the design and implementation but it had to abide by the Pomodoro Technique[^2]. 
+In **CSE 110: Software Engineering**, my team had one job: build a web-based Pomodoro timer that _honors_ (not hacks) the official technique.[^2] Everything else—feature set, visual style, code base—was on us.
 
 ## Research
 ### Analyze the Competition
-If we had been hired to create a timer—rather than assigned it in class—we would want customers to use our product. To do this, we would have to position ourselves uniquely on the market and find ways to prove that our solution was superior. As a team, we investigated the 6 most popular timers.
+| What we looked at | Why it mattered | What we learned |
+| ----------------- | --------------- | --------------- |
+| 6 popular Pomodoro apps | Benchmark UX patterns, failures | 🛑 Pause buttons break the “no interruptions” rule. <br/> 🛑 Salient colors & gamification fights focus. <br/> 🛑 Several apps buried basic feedback (how long is left?) |
+| Our own homework sprints | Empathy & obvious pain points | ☑️ Need to toggle between code, docs, and Slack often. <br/> ☑️ Dark rooms + late-night coding → dark-mode <br/> ☑️ Keyboard + mouse both needed |
 
 ![Popular pomodoro timer website](/public/pomodoro/pomofocus.png)
+**Figure 1:** _Typical competitor interface: bright colors, pause icon front-and-center._
 
-A number of problems emerged:
-- Most timers had a pause/stop button during a “pomodoro” which violated the technique → 🛑 it should be forfeited.
-- All the timers had salient colors, gamification, or notifications → 🛑 too distracting.
-- Some timers lacked clear signifiers or feedback → 🛑 reduced usability.
+### Storyboard & Usage Scenarios
+Before locking UI, we sketched four “day-in-the-life” frames to test how, where, and how visible the timer actually is. Each frame triggered concrete design rules.
 
-### Try the Technique
-While it would be better design practice to source a group of engineering students and conduct a survey or user experience data, we were not afforded the time to do so. Instead, we—engineering students—tried the Pomodoro Technique while completing assignments in our other engineering classes to analyze how the Technique would work for this audience.
+| Frames | Reality Check | Design Moves |
+| ----- | ------------- | ------------ |
+| **A. Screen tile** | Only a 500 px-wide sliver shows | ☑️ Oversized digits readable even at the minimum width. <br/> ☑️ Calm mode so countdown less stressful |
+| **B. One tab in a sea** | Tiny bit of text shows + user may forget which tab | ☑️ Dynamic tab title shows time left <br/> ☑️ Favicon badge represents mode |
+| **C. Mobile quick-check** | Portrait mode on a small screen | ☑️ Single column with info <br/> ☑️ Haptic vibration on break |
+| **D. VS Code full-screen** | Timer is completely hidden | ☑️ Audio notification <br/> ☑️ Quick keyboard toggle |
+
+![4 examples: first has timer as a small window, second has timer as a tab, third has timer on a mobile device, fourth has it hidden by full-screen code editor](/public/pomodoro/scemes-light.png#gh-light-mode-only)
+![4 examples: first has timer as a small window, second has timer as a tab, third has timer on a mobile device, fourth has it hidden by full-screen code editor](/public/pomodoro/scemes-dark.png#gh-dark-mode-only)
+
+**Figure 2:** _Four possible uses of the timer with different levels of visibility._
+
+The storyboard reminded us that visibility is situational, so we built multi-modal feedback (visual, auditory, haptic) and elastic layout from day one.
 
 ## Approach
 ### Simplicity is Key

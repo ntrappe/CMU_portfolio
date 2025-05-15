@@ -34,10 +34,13 @@ To determine whether there was a clear problem to be solved, my team and I dove 
 | Follow-up interviews | 5 survey volunteers | Want to visit parks but are frustrated by process: _where to go?, what hike?, what to bring?_ → overwhelmed. |
 | [Competitive audit](https://docs.google.com/document/d/1eKqaEfm-ZcYMHUdmKS3_RhwLTFxx08vJjQCDKVrxwAA/edit?usp=sharing) | 10 apps (AllTrails, NPS.gov..) | Great for experts; not beginner-friendly; lacking necessary features. |
 
+<br/>
+
 > “I’m not confident in my ability to go to a national park by myself (driving, planning, directions, packing, etc.)” — Daniel Wang[^2]
 >
 > “I’m confused on the process of going. I believe you may have to book in advance to go to Yosemite? I know there’s more steps to the process but I’m not sure how to start.” — Melissa Roberts[^3]
 
+<br/>
 
 ![Table of all apps on the market compared across features like operating hours and maps](/public/rock/MarketResearch.png)
 **Figure 1:** _Competitors compared across features._

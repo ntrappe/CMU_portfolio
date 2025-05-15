@@ -47,17 +47,17 @@ What we decided to do before designing:
 ### Storyboard & Usage Scenarios
 Before locking UI, we sketched four “day-in-the-life” frames to test how, where, and how visible the timer actually is. Each frame triggered concrete design rules.
 
-![4 examples: first has timer as a small window, second has timer as a tab, third has timer on a mobile device, fourth has it hidden by full-screen code editor](/public/pomodoro/scemes-light.png#gh-light-mode-only)
-![4 examples: first has timer as a small window, second has timer as a tab, third has timer on a mobile device, fourth has it hidden by full-screen code editor](/public/pomodoro/scemes-dark.png#gh-dark-mode-only)
+![4 examples: first has timer as a small window, second has timer as a tab, third has timer on a mobile device, fourth has it hidden by full-screen code editor](/public/pomodoro/scenes-light.png#gh-light-mode-only)
+![4 examples: first has timer as a small window, second has timer as a tab, third has timer on a mobile device, fourth has it hidden by full-screen code editor](/public/pomodoro/scenes-dark.png#gh-dark-mode-only)
 
-**Figure 2:** (Left to right) Timer as tile, as a tab, on a mobile device, and hidden by a full-screen editor.
+**Figure 2:** _(Left to right) Timer as tile, as a tab, on a mobile device, and hidden by a full-screen editor._
 
 | Frames | Reality Check | Design Moves |
 | ----- | ------------- | ------------ |
-| **A. Screen tile** | Only a 500 px-wide sliver shows | ☑️ Oversized digits readable even at the minimum width. <br/> ☑️ Calm mode so countdown less stressful |
-| **B. One tab in a sea** | Tiny bit of text shows + user may forget which tab | ☑️ Dynamic tab title shows time left <br/> ☑️ Favicon badge represents mode |
-| **C. Mobile quick-check** | Portrait mode on a small screen | ☑️ Single column with info <br/> ☑️ Haptic vibration on break |
-| **D. VS Code full-screen** | Timer is completely hidden | ☑️ Audio notification <br/> ☑️ Quick keyboard toggle |
+| **A. Screen tile** | Only a 500 px-wide sliver shows | - Oversized digits readable even at the minimum width. <br/> - Calm mode so countdown less stressful |
+| **B. One tab in a sea** | Tiny bit of text shows + user may forget which tab | - Dynamic tab title shows time left <br/> - Favicon badge represents mode |
+| **C. Mobile quick-check** | Portrait mode on a small screen | - Single column with info <br/> - Haptic vibration on break |
+| **D. VS Code full-screen** | Timer is completely hidden | - Audio notification <br/> - Quick keyboard toggle |
 
 
 > **Insight.** Visibility is situational ⇒ build redundant channels (visual, auditory, haptic).
@@ -127,6 +127,8 @@ Because students might resize the timer to fit their work environment, each feat
 | Timer > everything | Primary task is see remaining minutes. Oversized, bold digits win. |
 | Context-aware disabling	| During a work sprint, settings close (other than sound), stats gray out, and break-length inputs lock—pre-commitment.
 | Inline error recovery | Bad numbers flip inputs red and auto-correct (<= 0 → 1, > 60 → 60) | Keyboard shortcuts | `S` start/`R` restart. Keeps hands on keys. | 
+
+<br/>
 
 ![Invalid number of work minutes highlighted in red](/public/pomodoro/invalidinput.png)
 **Figure 10:** _Invalid number of work minutes gets highlighted in red and reset._

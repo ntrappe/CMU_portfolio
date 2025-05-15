@@ -93,8 +93,8 @@ _(Full critique notes ommited for brevity.)_
 **Figure 5:** _One of the levels of previews. These should be the fastest to scan (like on a feed) so most minimal info._
 
 <p id="feedback-section" style="display:flex;">
-  <img src="/public/rock/feedback1.png" alt="Feedback to improve filters" style="width:53%;">
-  <img src="/public/rock/feedback2.png" alt="Feedback to move settings" style="width:45%;">
+  <img src="/public/rock/feedback1.png" alt="Feedback to improve filters" style="width:49%;">
+  <img src="/public/rock/feedback2.png" alt="Feedback to move settings" style="width:49%;">
 </p>
 
 **Figure 6 & 7:** _Feedback from peers on settings & filters._

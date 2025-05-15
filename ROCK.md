@@ -64,8 +64,8 @@ We framed every design trade-off with five questions:
 | Colors | `#F2F2F7` background, `#619784` accent, `#000` primary text, `#7B7B7B` secondary text | Neutral base; color reserved for labels & status |
 
 <p id="design-system-section" style="display:flex;">
-  <img src="/public/rock/design_sys1.png" alt="Components including hike previews, park previews, etc." style="width:69%;">
-  <img src="/public/museum/design_sys2.png" alt="Rules for buttons and banners" style="width:29%;">
+  <img src="/public/rock/design_sys1.png" alt="Components including hike previews, park previews, etc." style="width:49%;">
+  <img src="/public/rock/design_sys2.png" alt="Rules for buttons and banners" style="width:48%;">
 </p>
 
 **Figure 2:** _Design system with components._
@@ -76,10 +76,11 @@ Our initial challenge in design was to find a balance between minimalism and fun
 | Round | Goal | What we changed | Evidence |
 | ----- | ---- | --------------- | -------- |
 | A/B #1 – “Fun vs Minimal” | Balance color & photography | Compared pastel card fills, borders vs shadows. Feedback: pastel blocks compete with photos. | Photo width 100%. **Fig 3.** |
-| A/B #2 - "Light vs Dark" | Readability & photography | Light-mode for readability + images | Light. **Fig 4.** |
+| A/B #2 - "Light vs Dark" | Readability | Light-mode for readability + images | Light. **Fig 4.** |
 | A/B #3 - "Icons" | Scan speed | Icons next to info like elevation gain clarify meaning | Icons on stats. |
 | A/B #4 - "Photo vs Text" | Progressive disclosure | Tested amount of text on preview. Feedback: keep it to the minimum needed. | Different levels of previews. **Fig 5.** |
 | High-Fidelity Pass | Validate app | Feedback: loved look, move settings, improve filters | **Fig 6.** |
+
 _(Full critique notes ommited for brevity.)_
 
 ![First round of A/B testing had hike previews with pastel colors and some with borders, others with shadows, etc.](/public/rock/PreviewTestA.png)
@@ -93,7 +94,7 @@ _(Full critique notes ommited for brevity.)_
 
 <p id="feedback-section" style="display:flex;">
   <img src="/public/rock/feedback1.png" alt="Feedback to improve filters" style="width:49%;">
-  <img src="/public/museum/feedback2.png" alt="Feedback to move settings" style="width:49%;">
+  <img src="/public/rock/feedback2.png" alt="Feedback to move settings" style="width:49%;">
 </p>
 
 **Figure 6 & 7:** _Feedback from peers on settings & filters._

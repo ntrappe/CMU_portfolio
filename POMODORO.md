@@ -59,7 +59,9 @@ Before locking UI, we sketched four “day-in-the-life” frames to test how, wh
 | **C. Mobile quick-check** | Portrait mode on a small screen | ☑️ Single column with info <br/> ☑️ Haptic vibration on break |
 | **D. VS Code full-screen** | Timer is completely hidden | ☑️ Audio notification <br/> ☑️ Quick keyboard toggle |
 
+
 > **Insight.** Visibility is situational ⇒ build redundant channels (visual, auditory, haptic).
+
 
 ![Example of user using timer as a tab](/public/pomodoro/storyboard.jpeg)
 

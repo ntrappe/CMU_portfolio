@@ -54,6 +54,12 @@ Our affinity mapping distilled three dominant pain points:
 ### Defining the Worst-Case Baseline
 Overlaying quantitative and qualitative data picked a single _triple-loser_ (noisy, heavy, confusing). Redesigning that model promised the biggest UX lift. 
 
+#### Ideation
+Below is a condensed version of our feature brainstorming session where we attempted to decide what to remove/add.
+
+![Post-it notes with a variety of ideas for the vacuum](/public/vacuum/postit.png)
+
+
 #### Four Pillars for the Redesign
 1. **Portability** – bus‑accordion connectors + ergonomic grip
 2. **Quiet Power** – "tesla"-style electric motor + acoustic baffles

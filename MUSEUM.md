@@ -131,8 +131,8 @@ I iterated through a variety of warm reds, russet browns, and muted oranges agai
 - **Graphite** (#464646) for text
 
 <p id="color-test-section" style="display:flex;">
+  <img src="/public/museum/ColorMockup2.png" alt="Ash poster with map section in a orange" style="width:49%;">
   <img src="/public/museum/ColorMockup1.png" alt="Ash poster with map section in a dark grey" style="width:49%;">
-  <img src="/public/museum/BWColorMockup2.png" alt="Ash poster with map section in a orange" style="width:49%;">
 </p>
 
 **Figure 7-8:** _The tonal range I explored._

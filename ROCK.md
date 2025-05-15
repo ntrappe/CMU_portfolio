@@ -100,7 +100,7 @@ _(Full critique notes ommited for brevity.)_
 **Figure 6 & 7:** _Feedback from peers on settings & filters._
 
 ## Final Result
-Watch the demo video here: https://github.com/ntrappe/CMU_portfolio/blob/main/public/rock/rock_demo.mov
+**Download & watch the demo:** https://github.com/ntrappe/CMU_portfolio/blob/main/public/rock/rock_demo.mov
 
 **Demo of the App.** See the app in action as we browse parks and hikes and set filters to narrow our options. If you'd prefer to try it out yourself, find it [here](https://www.figma.com/proto/ywP4mSyfwGENQ4pwyzv1vW/A4-National-Park-App?type=design&node-id=580-4846&t=g8QpYQoQiVCjQTzi-1&scaling=scale-down&page-id=580%3A4841&starting-point-node-id=580%3A4846&show-proto-sidebar=1).
 

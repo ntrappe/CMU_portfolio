@@ -14,83 +14,89 @@
 7. [Insights](#insights)
 
 ## Problem
-Millennials visit national parks less than any other previous generation. Because of this, the National Park System (NPS) is concerned about securing enough funding (as most is generated through visitation). Millennials are overwhelmed with the process of selecting a national park to visit. They don’t know how to select a park, what to look for, and which hikes are suitable.
+Millennials visit U.S. National Parks **less** than any previous generation, jeopardising long-term NPS funding. Interviews revealed they feel _overwhelmed_ by choosing a park, finding a trail, and knowing what to bring.
 
 ## Background
-This project was part of my Prototyping course at UC San Diego. Our objective was to build an interactive and innovative mobile information system to address a user problem. We were allowed to chose any problem of interest so long as we employed moodboards, wireframes, prototypes, and syle guides.
+For **COGS 100: Prototyping**, our objective was to build an interactive and innovative mobile information system to address a user problem. We were allowed to chose any problem of interest so long as we employed moodboards, wireframes, prototypes, and syle guides.
 
-Two months before this project began, I was waiting in line for the shuttle at Pinnacles National Park. It’s a park full of towering cinnamon-colored talus rocks, hidden caves, deep gulches, and enormous condors. I ended up speaking to a very chatty Park Ranger about the state of affairs at Pinnacles. Here, I learned two things. First, the few very well recognized parks (e.g. Yosemite) were getting the bulk of visitors, leaving lesser-known parks (e.g. Pinnacles) with less visitation (and therefore less funding). Second, there was a clear generation gap in that most of the visitors were older folks who’d grown up hiking.
+Two months before this project began, I was waiting in line for the shuttle at Pinnacles National Park. It’s a park full of towering cinnamon-colored talus rocks, hidden caves, deep gulches, and enormous condors. I ended up speaking to a park ranger and learned that there was an _enormous problem_ with park visitation. _How could I not try to tackle that?_ 
 
-![Cinnamon-colored talus rocks of Pinnacles National Park](/public/rock/pinnacles.jpg)
+> “If we were a business and [millennials were] our clientele, then over the long term, we would probably be out of business.” — Jonathan Jarvis (NPS director).
 
 ## Research
-### Articles & Interviews
-When I was presented with the opportunity to create an app for anything, I knew I had to dig deeper into that conversation. To determine whether there was a clear problem to be solved, my team and I dove into research. We sifted through news articles and interviews to understand whether (a) the parks were suffering financially and (b) if a lack of millennials was the problem. No quote could better back this up than one given by the National Park Service (NPS) director.
+To determine whether there was a clear problem to be solved, my team and I dove into research. 
 
-> “If we were a business and [millennials were] our clientele, then over the long term, we would probably be out of business.” — Jonathan Jarvis
+| Method | Sample | Take-away |
+| ------ | ------ | --------- |
+| Lit scan | NPS reports & news articles | Visitation skew = iconic parks (Yosemite) crowded, other parks (Pinnacles) ignored. |
+| [Survey](https://forms.gle/h2bxRMqGSMJAn3pt6) | 50 millennials | 77% want to visit a park; 80% not confident choosing one. _Quotes below._ |
+| [Survey](https://forms.gle/h2bxRMqGSMJAn3pt6) | 12 park rangers | People that grew up hiking (were shown how) will visit the parks. |
+| Follow-up interviews | 5 survey volunteers | Want to visit parks but are frustrated by process: _where to go?, what hike?, what to bring?_ → overwhelmed. |
+| [Competitive audit](https://docs.google.com/document/d/1eKqaEfm-ZcYMHUdmKS3_RhwLTFxx08vJjQCDKVrxwAA/edit?usp=sharing) | 10 apps (AllTrails, NPS.gov..) | Great for experts; not beginner-friendly; lacking necessary features. |
 
-All the evidence we collected indicated that (a) millennials were visiting parks less than baby boomers and (b) visiting national parks were the best ways to support the parks. So, now we knew that there was definitely a problem. But what was causing it? _Why weren’t millennials visiting National Parks?_
-
-### Surveys
-To investigate this, we surveyed 50 millennials across a variety of demographics. You can check out our survey [here](https://forms.gle/h2bxRMqGSMJAn3pt6). Four key trends emerged when we analyzed the data:
-
-- **77%** of respondents had a desire to go to a National Park
-- **74%** of respondents agreed more people should visit National Parks
-- **55%** of respondents had not visited a Park in the past 12 months
-- **80%** of respondents were not confident in their knowledge of the Parks nearest to them
-
-Now, this was more confusing. Millennials cared about the environment and wanted to go to National Parks but … weren’t? We had to dig a little deeper and interview respondents about what was motivating them or discouraging them from visiting the parks. While time was often a consideration, a major trend emerged: planning. They didn’t know where to start. What park? What to bring? What to see?
-
-> “I’m not confident in my ability to go to a national park by myself (deriving, planning, directions, packing, etc.)” — Daniel Wang[^2]
-
-Our key findings suggested that millennials want to visit parks but are frustrated with the process of how to do so. They both needed lots of information—where to go, what hike to do, what to bring, what weather conditions—but not enough to be overwhelmed.
-
+> “I’m not confident in my ability to go to a national park by myself (driving, planning, directions, packing, etc.)” — Daniel Wang[^2]
+>
 > “I’m confused on the process of going. I believe you may have to book in advance to go to Yosemite? I know there’s more steps to the process but I’m not sure how to start.” — Melissa Roberts[^3]
 
-### Market Research
-Millennials were clearly asking for a centralized hub of information. Before we built our own, we wanted to see what the market had to offer. Maybe this was just a problem of awareness? Did an app already exist that could support planning visits to National Parks?
-
-Kinda? We compared the 10 most popular apps and websites and found that many provided lists of hikes, directions, and photos, but weren’t solving our problem. The majority lacked a comprehensive guide for each park geared towards a novice who didn’t know what to look for. Many didn’t provide pertinent information on conditions, closures, filters for difficulty, equipment requirements, and more. If you’d like to see our full breakdown, you can find it on this [Google Doc](https://docs.google.com/document/d/1eKqaEfm-ZcYMHUdmKS3_RhwLTFxx08vJjQCDKVrxwAA/edit?usp=sharing).
 
 ![Table of all apps on the market compared across features like operating hours and maps](/public/rock/MarketResearch.png)
+**Figure 1:** _Competitors compared across features._
+
+
 
 ## Approach
-When thinking about designing the app, I focused on five questions:
+We framed every design trade-off with five questions:
 
-1. ⭐️ How do we make it fun?
-2. ✌️ How do we appeal across millennials?
-3. 💡 How do we get people interested in a park?
-4. ℹ️ How much information do we want to provide?
-5. 📅 When will they be using this?
-
-### Hiking is Fun
-First, millennials were feeling overwhelmed and stressed so we wanted our app to evoke the opposite feelings. We wanted them to feel excited, adventurous, and happy. We wanted them to be in awe of the parks not in dread. The first concept of fun was color. How could we bring in pops of color to the app?
-
-### Broad Appeal
-Second, we had a broad audience. We were targeting a large demographic across genders, socioeconomic statuses, and races. For that reason, we also wanted the app to feel minimalist, modern, and fairly neutral in its core color scheme. We wanted it to feel familiar and intuitive.
-
-### Show Don't Tell
-Third, the best way to sell a park is to show a park. The National Parks are gorgeous and impressive and we were going to lean heavily into photography.
-
-### The Challenge
-Fourth, the most challenging part—and arguably most important part—of this application would be how much information to provide and how to display it. We needed to find a balance of educating our audience without overwhelming them. We had to provide novices they might not know to check without making them feel uncomfortable.
-
-### Set the Scene
-Fifth, as a Software Engineer, I always ask the context around the use of an application. This app could be used at home while debating on going to a National Park, on the drive to a Park checking conditions, or even in the Park while on a hike. Given that National Parks rarely have good cellular connection, our app would have to provide all the information someone might need without network. This meant we would want to have offline maps, trail details, and more.
+| Lens | Why? | Design Implication |
+| ---- | ---- | ------------------ |
+| ⭐️ Fun | Users are overwhelmed & stressed | Color pops & photography to spark wanderlust | 
+| ✌️ Broad appeal | Large demographic across genders, SEO, etc. | Neutral core palette, minimalist |
+| 💡 Show, don't tell | Sell a park by showing it | Hero park photo, not walls of text |
+| ℹ️ Right info, right depth | Balance education w/o overwhelming them; get novices informed | Progressive disclosure | 
+| 📅 Offline contexts | Used on road, in park w/o service | Cache maps, trail details, recent alerts | 
 
 ## Design
-### Designing the Fun
-Our initial challenge in design was to find a balance between minimalism and fun. The bulk of our mockups were actually high-fidelity because we wanted to nail the look and feel of our previews. We needed to find a balance of how much color to use to make it fun but not distract from the parks. To determine our design, we conducted three rounds of A/B testing and iterated through a number of designs.
+### Design-System Snapshot
+| Token | Value | Details |
+| ----- | ----- | ------- |
+| Components | HikePreview, ParkPreview, InfoBanner, etc. | Built in Figma; each with styling |
+| Font | `SF Pro` main, `SF Mono` accent | General text is clean & bold; links & stats stand out |
+| Colors | `#F2F2F7` background, `#619784` accent, `#000` primary text, `#7B7B7B` secondary text | Neutral base; color reserved for labels & status |
+
+<p id="design-system-section" style="display:flex;">
+  <img src="/public/rock/design_sys1.png" alt="Components including hike previews, park previews, etc." style="width:69%;">
+  <img src="/public/museum/design_sys2.png" alt="Rules for buttons and banners" style="width:29%;">
+</p>
+
+**Figure 2:** _Design system with components._
+
+### Iteration & Test Cycles
+Our initial challenge in design was to find a balance between minimalism and fun. We relied on high-fi mockups to nail the look and feel.
+
+| Round | Goal | What we changed | Evidence |
+| ----- | ---- | --------------- | -------- |
+| A/B #1 – “Fun vs Minimal” | Balance color & photography | Compared pastel card fills, borders vs shadows. Feedback: pastel blocks compete with photos. | Photo width 100%. **Fig 3.** |
+| A/B #2 - "Light vs Dark" | Readability & photography | Light-mode for readability + images | Light. **Fig 4.** |
+| A/B #3 - "Icons" | Scan speed | Icons next to info like elevation gain clarify meaning | Icons on stats. |
+| A/B #4 - "Photo vs Text" | Progressive disclosure | Tested amount of text on preview. Feedback: keep it to the minimum needed. | Different levels of previews. **Fig 5.** |
+| High-Fidelity Pass | Validate app | Feedback: loved look, move settings, improve filters | **Fig 6.** |
+_(Full critique notes ommited for brevity.)_
 
 ![First round of A/B testing had hike previews with pastel colors and some with borders, others with shadows, etc.](/public/rock/PreviewTestA.png)
-
-We also played around with the size of the previews, what information to display, and a light vs dark mode.
+**Figure 3:** _Hike previews with pastels, borders vs shadows._
 
 ![Second round of A/B testing had hike previews in dark and light modes](/public/rock/PreviewTestB.png)
-
-With the feedback we received from users, we decided that the photo of the National Park should take up the full width of the preview. While having colorful backgrounds—even half-height colorful backgrounds—were fun, we didn’t want to take away from the parks. Those photos had enough color and we wanted them to be the focal point. So we increased the size of the photos and removed the unnecessary colorful additions.
+**Figure 4:** _Variety of previews in light vs dark mode._
 
 ![After a round of feedback, hike previews would showcase as much of the image as posssible](/public/rock/PreviewTestC.png)
+**Figure 5:** _One of the levels of previews. These should be the fastest to scan (like on a feed) so most minimal info._
+
+<p id="feedback-section" style="display:flex;">
+  <img src="/public/rock/feedback1.png" alt="Feedback to improve filters" style="width:49%;">
+  <img src="/public/museum/feedback2.png" alt="Feedback to move settings" style="width:49%;">
+</p>
+
+**Figure 6 & 7:** _Feedback from peers on settings & filters._
 
 ## Final Result
 <video controls src="https://github.com/ntrappe/CMU_portfolio/blob/main/public/rock/rock_demo.mov" title="rock app demo video"></video>
